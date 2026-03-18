@@ -1,0 +1,1 @@
+[18-Mar-2026 17:48:53 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in C:\abq\site_unico\public_html\wp-content\plugins\elementor-pro\modules\loop-builder\skins\skin-loop-base.php on line 36
