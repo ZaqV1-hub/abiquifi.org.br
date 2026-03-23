@@ -25,13 +25,13 @@ define('WP_MAX_MEMORY_LIMIT', '512M');
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'abiquifi_tihx1' );
+define( 'DB_NAME', 'abc_teste' );
 
 /** Database username */
-define( 'DB_USER', 'abiquifi_tihx1' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'H-KmyI9ZdFjndJl7iI&80&.2' );
+define( 'DB_PASSWORD', 'starcraft22(' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -103,8 +103,8 @@ define('WP_DEBUG_DISPLAY', false);
 /* Add any custom values between this line and the "stop editing" line. */
 
 // Force canonical site URL (prevents old domain from persisting).
-define('WP_HOME', 'https://abiquifi.org.br');
-define('WP_SITEURL', 'https://abiquifi.org.br');
+define('WP_HOME', 'https://abiquifi.questione.ai');
+define('WP_SITEURL', 'https://abiquifi.questione.ai');
 
 // Trust ngrok/IIS forwarded proto so WordPress doesn't force-redirect.
 if (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
