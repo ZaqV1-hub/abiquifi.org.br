@@ -28,13 +28,13 @@ define('WP_MAX_MEMORY_LIMIT', '512M');
 define( 'DB_NAME', 'abiquifi_tihx1' );
 
 /** Database username */
-define( 'DB_USER', 'abiquifi_tihx1' );
+define( 'DB_USER', 'teachnology' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'H-KmyI9ZdFjndJl7iI&80&.2' );
+define( 'DB_PASSWORD', 'potenza!19' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'mysqlrincao.mysql.database.azure.com' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
