@@ -8,18 +8,10 @@ add_action(
 	'wp_enqueue_scripts',
 	static function () {
 		$css = '
-			.jupiterx-post-content .wp-block-image .aligncenter {
-				text-align: center;
-			}
-
-			.jupiterx-post-content .wp-block-image .aligncenter picture {
-				display: inline-block;
-				max-width: 100%;
-			}
-
-			.jupiterx-post-content .wp-block-image .aligncenter img {
-				margin-left: auto;
-				margin-right: auto;
+			.elementor-widget-raven-post-content .wp-block-image figure.aligncenter,
+			.jupiterx-post-content .wp-block-image figure.aligncenter {
+				margin-left: auto !important;
+				margin-right: auto !important;
 			}
 		';
 
